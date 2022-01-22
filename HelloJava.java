@@ -8,6 +8,8 @@ public class HelloJava {
             double draw = Math.random();
             vals.add((int)((draw * range) + 1)); // wo append?
         }
+
+
         int min, max = min = vals.get(0); // ??? Java, alles okay?
         for (Integer val : vals) {
             if (val < min) {
